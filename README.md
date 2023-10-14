@@ -6,8 +6,6 @@ A very simple Spring Boot REST API, performs CRUD operations on a SQLite databas
 
 * Swagger JSON URL: http://localhost:8080/api/v2/api-docs
 
-LINK POSTMAN PARA IMPORTAR
-https://api.postman.com/collections/13263658-7eeb39ef-6b11-4b0a-a7d3-5be28f44fcbb?access_key=PMAT-01HCPE3JSQAKYHKDHD55A1MHNW
 
 PARA PODER CORRER EL PROGRAMA DEBE TENER INSTALADO LAS DEPENDENCIAS NECESARIAS ( MAVEN, JAVA)
 
