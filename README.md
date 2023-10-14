@@ -9,9 +9,19 @@ A very simple Spring Boot REST API, performs CRUD operations on a SQLite databas
 
 PARA PODER CORRER EL PROGRAMA DEBE TENER INSTALADO LAS DEPENDENCIAS NECESARIAS ( MAVEN, JAVA)
 
-LEVANTAR POR COMANDO EL API
+LEVANTAR EL API LOCAL POR COMANDO
 ~~~
 mvn spring-boot:run
+~~~
+
+LEVANTAR EL API CON DOCKER
+~~~
+mvn clean install
+
+sudo docker build -t challenge-landscape/docker .
+
+sudo docker run -p 8080:8080 -d challenge-landscape/docker
+
 ~~~
 
 EL API LEVANTARA EN EL PUERTO 8080 POR DEFECTO  

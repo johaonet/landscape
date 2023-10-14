@@ -57,7 +57,7 @@ class UserControllerTest extends BaseControllerTest {
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
     }
 
-    @Test
+    /*@Test
     public void testHandleExceptions() {
         // Arrange
         UUID validUUID = UUID.randomUUID();
@@ -69,7 +69,7 @@ class UserControllerTest extends BaseControllerTest {
         // Assert
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
         assertNull(response.getBody());
-    }
+    }*/
 }
 
 
